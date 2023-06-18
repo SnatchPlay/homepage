@@ -168,6 +168,17 @@ body {
     color: var(--secondary-text-color);
     text-align: justify;
 }
+#skill_row{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#skill_cols{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /*Experience and additional info styles*/
 .experiences {
     flex: 1 1 60%;
